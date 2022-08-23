@@ -1,0 +1,18 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+}
+
+
+
+
+
+
+/*ATTRIBUTION*/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
