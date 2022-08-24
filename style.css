@@ -1,16 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
-@media all and (min-width: 1439.99px) {
-  body {
-        max-height: 500px;
-
-  }
-}
 body {
   background-color: hsl(225, 100%, 94%);
   font-family: 'Red Hat Display', sans-serif;
-  margin-top: 20%;
-  margin-bottom: 20%;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -31,14 +23,13 @@ p {
 
 .container {
   width: 350px;
+  margin-block: 2rem;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
   justify-content: center;
-  margin-left: 5%;
-  margin-right: 5%;
   background-color: hsla(235, 0%, 100%, 1);
   border-radius: 15px;
 }
