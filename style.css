@@ -97,11 +97,9 @@ img {
   background: #382AE1;
   text-decoration: none;
   font-weight: 700;
+  text-align: center;
 }
 
-.btn h3{
-    text-align: center;
-}
 .btn:hover {
   cursor: pointer;
 }
@@ -110,13 +108,14 @@ img {
   box-sizing: border-box;
   margin-top: 0;
   margin-bottom: 30px;
-  color: rgb(126,131,150);
+  color: rgb(126, 131, 150);
 }
 
 #h5-color {
-  color: rgb(126,131,150);
+  color: rgb(126, 131, 150);
   font-weight: 700;
 }
+
 /*ATTRIBUTION*/
 .attribution {
   margin-top: 30px;
