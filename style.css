@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
+
 body {
   background-color: hsl(225, 100%, 94%);
   font-family: 'Red Hat Display', sans-serif;
@@ -13,6 +14,11 @@ body {
   align-items: center;
   align-content: center;
   justify-content: center;
+}
+
+.m0 {
+  margin: 0;
+  text-align: left;
 }
 
 p {
@@ -47,6 +53,7 @@ img {
 
 .text p {
   color: hsl(224, 23%, 55%);
+  font-weight: 500;
 }
 
 .text {
@@ -57,54 +64,65 @@ img {
   text-align: center;
 }
 
-.plan-container {
-  display: grid;
-  grid-template-columns: 1fr 1.2fr 0.8fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: column;
+.plan-annual {
+  box-sizing: border-box;
+  background-color: rgb(248, 249, 254);
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
   justify-content: center;
-  align-content: center;
-  grid-template-areas:
-    "music-i plan-txt plan-link";
-  height: 110px;
-}
-
-.music-i {
-  justify-self: center;
-  align-self: center;
-  grid-area: music-i;
-}
-
-.plan-txt {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 0px 0px;
-  grid-template-areas:
-    "t1"
-    "t2";
-  justify-self: start;
-  align-self: center;
-  text-align: center;
-  grid-area: plan-txt;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 20px;
 }
 
 
-.plan-link {
-  display: inline;
-  align-self: center;
-  text-align: center;
-  grid-area: plan-link;
-  color: rebeccapurple;
+.plan-link a {
+  box-sizing: border-box;
+  margin-left: 10px;
+  text-align: right;
   text-decoration: underline;
+  color: rgb(61, 50, 171);
 }
 
+.btn {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  border: 0;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 20px #382AE1;
+  -moz-box-shadow: 1px 1px 20px #382AE1;
+  box-shadow: 1px 1px 20px #382AE1;
+  color: ghostwhite;
+  font-size: 14px;
+  width: 80%;
+  padding: 20px;
+  background: #382AE1;
+  text-decoration: none;
+  font-weight: 700;
+}
 
+.btn h3{
+    text-align: center;
+}
+.btn:hover {
+  cursor: pointer;
+}
 
+.m1 {
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: rgb(126,131,150);
+}
 
 /*ATTRIBUTION*/
 .attribution {
+  margin-top: 30px;
+  margin-bottom: 0;
   font-size: 11px;
   text-align: center;
 }
