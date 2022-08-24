@@ -1,18 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 body {
-    background-color: hsl(225, 100%, 94%);
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+
+  margin-top: 20%;
+  margin-bottom: 20%;
+  padding: 0;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
+p {
+  font-size: 16px;
 
+}
+
+.container {
+  width: 350px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: hsla(235, 0%, 100%, 1);
+  border-radius: 15px;
+}
+
+img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.text h2 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.text p {
+  color: hsl(224, 23%, 55%);
+}
+
+.text {
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.plan {
+  background-color: rgba(248, 249, 254);
+  box-sizing: border-box;
+  display: inline-block;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  margin: 25px;
+  border-radius: 20px;
+  line-height: 0;
+  height: 80px;
+}
 
 
 
 
 /*ATTRIBUTION*/
 .attribution {
-    font-size: 11px;
-    text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
