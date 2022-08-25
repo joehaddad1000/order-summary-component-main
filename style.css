@@ -69,7 +69,20 @@ img {
   margin: 30px;
   border-radius: 20px;
 }
+.plan-annual svg{
+  box-sizing: border-box;
+  margin: 0;
+  width: 100%;
+}
 
+.plan-annual h2{
+  margin: 0;
+  font-size: 16px;
+  white-space: nowrap;
+}
+.plan-annual p{
+  margin: 0;
+}
 
 .plan-link a {
   box-sizing: border-box;
