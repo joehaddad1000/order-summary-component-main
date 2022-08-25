@@ -77,6 +77,12 @@ img {
   text-align: right;
   text-decoration: underline;
   color: rgb(61, 50, 171);
+  transition: .2s color ease;
+}
+
+.plan-link a:hover {
+  color: rgb(117, 108, 238);
+  cursor: pointer;
 }
 
 .btn {
@@ -98,9 +104,11 @@ img {
   text-decoration: none;
   font-weight: 700;
   text-align: center;
+  transition: .2s background-color ease;
 }
 
 .btn:hover {
+  background-color: rgb(117, 108, 238);
   cursor: pointer;
 }
 
@@ -109,6 +117,12 @@ img {
   margin-top: 0;
   margin-bottom: 30px;
   color: rgb(126, 131, 150);
+  transition: .2s color ease;
+}
+
+.m1:hover {
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
 }
 
 #h5-color {
