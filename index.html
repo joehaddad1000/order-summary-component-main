@@ -14,16 +14,16 @@
 
 <body>
 
-  <div class="container">
-    <img src="images/illustration-hero.svg" alt="hero image">
+  <div class="container" role="Container">
+    <img src="images/illustration-hero.svg" alt="hero image" role="Illustration">
     <div class="container-summary">
-      <div class="text">
-        <h2>Order Summary</h2>
+      <div class="text" role="Summary">
+        <h1>Order Summary</h1>
         <p>You can now listen to millions of songs, audiobooks, and podcasts on any
           device anywhere you like!</p>
       </div>
     </div>
-    <div class="plan-annual">
+    <div class="plan-annual" role="Annual Plan container">
       <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
         <g fill="none" fill-rule="evenodd">
           <circle cx="24" cy="24" r="24" fill="#DFE6FB" />
@@ -31,13 +31,15 @@
         </g>
       </svg>
 
-      <section>
-        <h4 class="m0">Annual Plan</h4>
+      <section role="Price">
+        <div id="Annual-color">
+          Annual Plan
+        </div>
         <div id="price-color">
           $59.99/year
         </div>
       </section>
-      <div class="plan-link">
+      <div class="plan-link" role="Link">
         <strong>
           <a href="#">
             Change
@@ -45,11 +47,11 @@
         </strong>
       </div>
     </div>
-    <button class="btn">
+    <button class="btn" role="Button to proceed">
       <strong> Proceed to Payement
       </strong>
     </button>
-    <a href="#" id="cancel">Cancel Order</a>
+    <a href="#" id="cancel" role="Cancellation of the order">Cancel Order</a>
   </div>
 
 

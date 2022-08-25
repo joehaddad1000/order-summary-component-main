@@ -127,6 +127,10 @@ img {
   cursor: pointer;
 }
 
+#annual-color {
+  font-weight: 700;
+}
+
 #price-color {
   color: rgb(126, 131, 150);
   font-weight: 700;
