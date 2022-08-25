@@ -112,20 +112,22 @@ img {
   cursor: pointer;
 }
 
-.m1 {
+#cancel {
   box-sizing: border-box;
   margin-top: 0;
   margin-bottom: 30px;
   color: rgb(126, 131, 150);
   transition: .2s color ease;
+  text-decoration: none;
+  font-weight: 700
 }
 
-.m1:hover {
+#cancel:hover {
   color: hsl(223, 47%, 23%);
   cursor: pointer;
 }
 
-#h5-color {
+#price-color {
   color: rgb(126, 131, 150);
   font-weight: 700;
 }
